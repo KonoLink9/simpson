@@ -1,0 +1,296 @@
+* {
+    margin: 0% 0%;  
+}
+
+body{
+    background-image: url(../imagens/fundoceu.jpg);
+    background-repeat: repeat-y;
+    height: 3300px;
+}
+@font-face {
+    font-family: 'Test1';
+    src: url(../fonte/YARDSALE.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fundo {
+    position: absolute;
+    top: 5%;
+    margin-top: 32%;
+    left: 10%;
+    width: 80.2%;
+    height: 2700px;
+    background-color: rgba(255, 255, 255, 0.634);
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    z-index: 3;
+}
+
+.PC {
+    z-index: 3;
+    text-align: justify;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 55%;
+    width: 18.8%;
+    font-size: 90%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255); 
+}
+
+.title {
+    z-index: 5;
+    pointer-events: none;
+    text-align: center;
+    position: absolute;
+}
+/* ================== Parte 1 ========================================= */
+.title1 {
+    font-size: 125%;
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    top: 86%;
+    left: 20%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+.titleH{
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 90%;
+    top: 93%;
+    left: 20%;
+    width: 13%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+.titleM{
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 90%;
+    top: 93%;
+    left: 42%;
+    width: 16%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+    text-decoration:underline;
+}
+.titleB{
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 90%;
+    top: 93%;
+    left: 64%;
+    width: 20%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+.titleL{
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 90%;
+    top: 130%;
+    left: 29%;
+    width: 20%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+.titleMM{
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 90%;
+    top: 132%;
+    left: 53%;
+    width: 20%;
+    -webkit-text-stroke: 0.1px rgb(255, 255, 255);
+}
+
+
+/*--------------------Alguns Testes(não lembro oq era)-----------------------------*/
+.test {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    height: 600px;
+}
+
+.homer {
+    pointer-events: none;
+    top: 25%;
+    left: 43%;
+    position: absolute;
+    z-index: 5;
+}
+
+/*================Alguns Testes===============================*/
+
+.tatu {
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    height: 60%;
+    z-index: 3;
+    width: 63%;
+    font-size: 105%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+/*====================section imagens====================*/
+.bart {
+    z-index: 4;
+    position: absolute;
+    left: 64%;
+    top: 102%;
+}
+
+.homeu {
+    z-index: 4;
+    position: absolute;
+    left: 20%;
+    top: 102%;
+}
+
+.marge {
+    z-index: 4;
+    position: absolute;
+    left: 42%;
+    top: 102%;
+}
+.lisa {
+    z-index: 4;
+    position: absolute;
+    top: 139%;
+    left: 29%;
+}
+.maggie {
+    z-index: 4;
+    position: absolute;
+    top: 139%;
+    left: 53%;
+}
+/* ================================================== */
+
+.LHp {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 170%;
+    left: 20%;
+    width: 63%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.pE {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 210%;
+    left: 20%;
+    width: 63%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+.Pos {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 258%;
+    left: 20%;
+    width: 61%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.Sr {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 310%;
+    left: 20%;
+    width: 61%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.sim {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 365%;
+    left: 20%;
+    width: 61%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+.MG {
+    z-index: 5;
+    text-align: left;
+    position: absolute;
+    font-size: 100%;
+    top: 420%;
+    left: 20%;
+    width: 61%;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+}
+
+/* ===================== Part 2 ================== */
+
+.LH {
+    z-index: 4;
+    position: absolute;
+    top: 181%;
+    left: 29%;
+}
+.LH2 {
+    z-index: 4;
+    position: absolute;
+    top: 181%;
+    left: 53%;
+}
+.pei {
+    z-index: 4;
+    position: absolute;
+    top: 216%;
+    left: 27%;
+}
+
+.pos {
+    z-index: 4;
+    position: absolute;
+    top: 268%;
+    left: 27%;
+}
+
+.sr {
+    z-index: 4;
+    position: absolute;
+    top: 315%;
+    left: 35%;
+}
+
+.revi {
+    z-index: 4;
+    position: absolute;
+    top: 378%;
+    left: 28%;
+}
+.cal {
+    z-index: 4;
+    position: absolute;
+    top: 378%;
+    left: 48%;
+}
+.Mg {
+    z-index: 4;
+    position: absolute;
+    top: 430%;
+    left: 38%;
+}
+footer {
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.634);
+    text-align: center;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
